@@ -1,0 +1,27 @@
+h1{
+  text-align: center;
+}
+.content {
+  align-content: center;
+  display: flex;
+  justify-content: center;
+
+}
+
+.red {
+  background-color: #f2f2f2;
+  flex-grow: 2;
+  border-color: yellow;
+  border-style: double;
+}
+.pink{
+  background-color: pink;
+  flex-grow: 1
+}
+.blue {
+  background-color: blue;
+  flex-grow: 1;
+}
+.red, .blue, .pink {
+  height: 50px;
+}
