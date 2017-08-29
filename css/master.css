@@ -5,8 +5,6 @@ h1{
   align-content: center;
   display: flex;
   justify-content: center;
-  border-color: yellow;
-  border-style: double;
   margin-left: 280px;
   margin-right: 280px;
   background-color: #f2f2f2;
@@ -80,7 +78,6 @@ a:hover {
 }
 .container{
   float: left;
-  float: top;
 }
 .text {
   white-space: nowrap;
@@ -92,6 +89,9 @@ a:hover {
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+}
+.nav{
+  text-align: left;
 }
   @media screen and (max-width: 1600px) {
 
