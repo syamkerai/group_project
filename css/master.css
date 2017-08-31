@@ -7,7 +7,7 @@ h1{
   justify-content: center;
   margin-left: 280px;
   margin-right: 280px;
-  background-color: #f2f2f2;
+  background-color: #ffffff;
 }
 .social{
   text-align: center;
@@ -47,6 +47,7 @@ a:hover {
     border-radius: 50%;
 }
 .nav{
+  float: center;
   text-align: center;
 }
 .container {
@@ -93,6 +94,30 @@ a:hover {
 .nav{
   text-align: left;
 }
+.links{
+  text-align: right;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li{
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover{
+  background: #111;
+}
+
   @media screen and (max-width: 1600px) {
 
   	header h1 a { font-size: 35px; padding: 5px; }
